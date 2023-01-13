@@ -4,6 +4,8 @@
     --primary-gray: #667085;
     --primary-dark: #101828;
     --second-gray: #EAECF0;
+    --second-red: #C3191908;
+
     --font: 'Inter', 'sans-serif';
 
 }
@@ -114,6 +116,7 @@ nav {
 
 .hiring-section {
     margin: 7em;
+    padding: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,6 +129,7 @@ nav {
     color: var(--primary-red);
     border-radius: 16px;
     background-color: rgba(142, 36, 36, 0.05);
+    padding: 0.3rem 0.8rem;
 }
 
 .hiring-div h3 {
@@ -150,7 +154,6 @@ nav {
     align-items: center;
     width: 100vw;
 }
-
 
 .design-article h4{
     font-size: 20px;
@@ -186,4 +189,51 @@ nav {
     border-radius: 1rem;
     margin: 2rem 0;
     padding: 2rem;
+}
+
+.feedback-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-div {
+    width: 76vw;
+    background: var(--second-red);
+    padding: 4rem;
+}
+
+.view-feedback {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary-red);
+}
+
+.feedback-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin: 1rem 0;
+}
+
+.avatar-div {
+    display: flex;
+    justify-content: center;
+}
+
+.worker-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 1rem 0;
+}
+
+.worker-desc {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: var(--primary-gray);
 }
