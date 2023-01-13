@@ -3,7 +3,9 @@
     --primary-red: #8E2424;
     --primary-gray: #667085;
     --primary-dark: #101828;
+    --second-gray: #EAECF0;
     --font: 'Inter', 'sans-serif';
+
 }
 
 body {
@@ -73,6 +75,7 @@ nav {
 
 .about-div h2 {
     font-size: 48px;
+    font-weight: 600;
     margin-top: 1.5rem;
 }
 
@@ -142,3 +145,44 @@ nav {
     margin: 4rem 0;
 }
 
+.jobs-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.design-article h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+
+.dev-article h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+
+.job {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-dark);
+}
+
+.job-time, .job-payment {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-gray);
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+.job-article {
+    width: 46vw;
+    border: 1px solid var(--second-gray);
+    border-radius: 1rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
