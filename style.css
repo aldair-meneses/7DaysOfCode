@@ -5,6 +5,7 @@
     --primary-dark: #101828;
     --second-gray: #EAECF0;
     --second-red: #C3191908;
+    --second-white: #F9FAFB;
 
     --font: 'Inter', 'sans-serif';
 
@@ -115,8 +116,8 @@ nav {
 }
 
 .hiring-section {
-    margin: 7em;
-    padding: 7rem;
+    margin-top: 7em;
+    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,6 +147,7 @@ nav {
 .meeting-image {
     width: 74vw;
     margin: 4rem 0;
+    padding: 0 2rem;
 }
 
 .jobs-div {
@@ -195,6 +197,7 @@ nav {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    margin-top: 6rem;
     align-items: center;
 }
 
@@ -236,4 +239,64 @@ nav {
     font-size: 14px;
     text-align: center;
     color: var(--primary-gray);
+}
+
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background: var(--second-white);
+    margin: 6rem 0 0 0;
+}
+
+.news-div{
+    width: 46vw;
+    padding: 6rem 0 6rem 0;
+    text-align: center;
+}
+
+.news-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--primary-dark);
+}
+
+.news-desc {
+    display: block;
+    font-size: 20px;
+    color: var(--primary-gray);
+    text-align: center;
+    margin: 1.25rem 0;
+}
+
+.email-field {
+    padding: 0.8rem 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    width: 360px;
+    font-size: 16px;
+    color: var(--primary-gray);
+    margin-right: 12px;
+}
+
+.email-btn {
+    margin: 1.4rem 0.8rem 1.4rem 0;
+    background-color: var(--primary-red);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 1px solid var(--primary-white);
+    color: #FFFFFF;
+    padding: 0.8rem 0;
+    width: 116px;
+}
+
+.copy-text {
+    display: block;
+    font-size: 16px;
+    color: var(--primary-gray);
+    margin: 1rem;
 }
