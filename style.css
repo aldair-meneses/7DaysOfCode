@@ -59,7 +59,7 @@ nav {
 }
 
 .about-sec {
-    margin-top: 8rem;
+    margin: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,7 +68,7 @@ nav {
 .about-div {
     margin: 0 auto;
     text-align: center;
-    width: 790px;
+    width: 56vw;
 }
 
 .about-intro {
@@ -91,33 +91,34 @@ nav {
 
 .metrics-div {
     display: flex;
-    width: 1040px;
-    margin-top: 8rem;
-    gap: 32px;
+    margin: 6rem 0;
+}
+
+.metrics-article {
+    width: 280px;
+    margin: 2rem 0;
 }
 
 .about-sub {
-    margin-top: 12px;
-    color: var(--primary-red);
     font-size: 60px;
     font-weight: 600;
+    color: var(--primary-red);
 }
 
 .about-content--strong {
-    margin: 1rem 0 0.5rem 0;
-    color: var(--primary-dark);
+    display: block;
     font-weight: 500;
     font-size: 18px;
+    color: var(--primary-dark);
+    margin: 12px 0 8px 0;
 }
 
 .about-content {
-    color: var(--primary-gray);
     font-size: 16px;
+    color: var(--primary-gray);
 }
 
 .hiring-section {
-    margin-top: 7em;
-    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,6 +126,7 @@ nav {
 }
 
 .hiring-intro {
+    margin-top: 20px;
     font-weight: 700;
     font-size: 14px;
     color: var(--primary-red);
