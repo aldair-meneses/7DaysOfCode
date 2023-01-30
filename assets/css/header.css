@@ -70,6 +70,10 @@
     border: none;
 }
 
+.button__signup:hover, .button__login:hover {
+    cursor: pointer;
+}
+
 .button__signup {
     color: var(--primary-white);
     font-size: 16px;
