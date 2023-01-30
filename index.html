@@ -6,133 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./style.css">
     <title>7DaysOfCode</title>
 </head>
 <body>
     <header class="main-header">
-            <nav>            
-                <h1 class="logo-site"><img src="./assets/img/logo.svg" alt="Logo do site"></h1>
-                <div class="links">
-                    <a href="#">Home</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Recursos</a>
-                    <a href="#">Sobre Nós</a>
+            <div class="logo__container">
+                <h1 class="logo-site">
+                    <img src="./assets/img/logo_mobile.svg" alt="Logo do site" class="logo">OptimusTech
+                </h1>
+                <img src="./assets/img/logo_mobile.svg" alt="Logo do site" class="logo__mobile">
+                <button class="menu__button">
+                    <label for="menu-toggle">
+                        <img src="./assets/img/menu_mobile.svg" alt="Menu Hamburguer" class="menu__image">
+                    </label>
+                </button>
+                <input type="checkbox" name="menu-toggle" id="menu-toggle" class="menu__toggle">
+                <div class="links--mobile">
+                    <a href="#" class="link--mobile">Home</a>
+                    <a href="#" class="link--mobile">Produtos</a>
+                    <a href="#" class="link--mobile">Recursos</a>
+                    <a href="#" class="link--mobile">Sobre Nós</a>
                 </div>
-                <div class="user-buttons">
-                    <buttons>Entrar</buttons>
-                    <buttons class="signup">Cadastrar</buttons>
+            </div>
+            <nav class="menu__navigation">            
+                <div class="links">
+                    <a href="#" class="link">Home</a>
+                    <a href="#" class="link">Produtos</a>
+                    <a href="#" class="link">Recursos</a>
+                    <a href="#" class="link">Sobre Nós</a>
+                </div>
+                <div class="user__buttons">
+                    <button class="button__login user__button">Entrar</button>
+                    <button class="button__signup user__butoton">Cadastrar</buttons>
                 </div>
             </nav>
     </header>
-    <main>
-        <section class="about-sec">
-            <div class="about-div">
-                    <span class="about-intro">Sobre nós</span>
-                    <h2>Por que somos diferentes?</h2>
-                    <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para
-                        ajudar as empresas de todo o mundo a se concentrarem 
-                        naquilo que é realmente importante para elas.
-                    </p>
-            </div>
-            <div class="metrics-div">
-                <article class="metrics-article">
-                    <h2 class="about-sub">400+</h2>
-                    <span class="about-content--strong">Projetos concluídos</span>
-                    <span class="about-content">Nós ajudamos a construir mais de 400 projetos incríveis.</span>
-                </article>
-                <article class="metrics-article">
-                    <h2 class="about-sub">100+</h2>
-                    <span class="about-content--strong">Colaboradores</span>
-                    <span class="about-content">Temos mais de 100 colaboradores no nosso time
-                        que se preocupam com nossos clientes.</span>
-                </article>
-                <article class="metrics-article">
-                    <h2 class="about-sub">20k</h2>
-                    <span class="about-content--strong">Downloads</span>
-                    <span class="about-content">Nós ajudamos a construir mais de 400 projetos incríveis.</span>
-                </article>
-                <article class="metrics-article">
-                    <h2 class="about-sub">500+</h2>
-                    <span class="about-content--strong">Reviews 5 estrelas</span>
-                    <span class="about-content">Estamos orgulhosos de contar com mais de 500 reviews 5 
-                        estrelas em nossos produtos.
-                    </span>
-                </article>
-            </div>
-        </section>
-        <section class="hiring-section">
-            <div class="hiring-div">
-                <span class="hiring-intro">Vagas abertas!</span>
-                    <h3>Estamos procurando por talentos</h3>
-                    <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
-                    <img src="./assets/img/meeting.png" alt="Reunião da empresa" class="meeting-image">
-            </div>
-        </section>
-        <section class="jobs-section">
-            <div class="jobs-div">
-                <article class="design-article">
-                    <h4>Design</h4>
-                    <article class="job-article">
-                        <p class="job">Product Designer</p>
-                        <p class="job-time">Full-time</p>
-                        <p class="job-payment">Faixa salarial: R$7.000</p>
-                    </article>
-                    <article class="job-article">
-                        <p class="job">UX Designer</p>
-                        <p class="job-time">Full-time</p>
-                        <p class="job-payment">Faixa salarial: R$6.000</p>
-                    </article>
-                </article>
-                <article class="dev-article">
-                    <h4>Desenvolvimento de Software</h4>
-                    <article class="job-article">
-                        <span class="job">Desenvolvedor(a) iOS</span>
-                        <span class="job-time">Full-time</span>
-                        <span class="job-payment">Faixa salarial: R$8.000</span>
-                    </article>
-                    <article class="job-article">
-                        <span class="job">Desenvolvedor(a) Front-end</span>
-                        <span class="job-time">Full-time</span>
-                        <span class="job-payment">Faixa salarial: R$7.000</span>
-                    </article>
-                    <article class="job-article">
-                        <span class="job">Desenvolvedor(a) Back-end</span>
-                        <span class="job-time">Full-time</span>
-                        <span class="job-payment">Faixa salarial: R$8.000</span>
-                    </article>
-                </article>
-            </div>
-        </section>
-        <section class="feedback-section">
-            <div class="feedback-div">
-                <span class="view-feedback">Veja o que nossos colaboradores falam sobre nós</span>
-                <h2 class="feedback-title">OptimusTech se importa com a saúde dos 
-                    seus colaboradores e sempre procura nos dar todo
-                    tipo de auxílio possível.
-                </h2>
-                <div class="avatar-div">
-                    <img src="./assets/img/avatar.png" alt="Foto de colaborador" class="worker-image">
-                </div>
-                <span class="worker-desc">Desenvolvedora Web</span>
-            </div>
-        </section>
-        <section class="news-section">
-            <div class="news-div">
-                <h2 class="news-title">Acompanhe as nossas oportunidades</h2>
-                <span class="news-desc">Seja o primeiro a saber quando novas vagas serão abertas!</span>
-                <div class="container-form">
-                    <form action="#">
-                        <label for="email"></label>
-                        <input type="email" name="email" id="email" placeholder="Seu e-mail" class="email-field">
-                        <button class="email-btn" >Cadastrar</button>
-                    </form>
-                    <span class="copy-text">&copy2022 OptimusTech. Todos os direitos reservados.</span>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
+    </body>
 </html>
