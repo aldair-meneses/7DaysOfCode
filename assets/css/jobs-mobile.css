@@ -1,0 +1,14 @@
+@media screen and (max-width: 801px){
+    .jobs {
+        width: 100%;
+    }
+
+    .jobs__title {
+        font-size: 1.5rem;
+    }
+
+    .jobs__text {
+        font-size: 1rem;
+    }
+
+}

@@ -1,5 +1,5 @@
 .jobs {
-    width: 50%;
+    width: 88%;
     margin: 0 auto;
     text-align: center;
 }
@@ -28,4 +28,9 @@
     font-weight: 400;
     color: var(--primary-gray);
     margin: 1rem 0 1.2rem 0;
+}
+
+.jobs__image {
+    width: 100%;
+    margin: 2rem 0;
 }
