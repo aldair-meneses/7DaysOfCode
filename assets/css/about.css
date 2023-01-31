@@ -1,0 +1,28 @@
+.about {
+    margin: 6em auto;
+    width: 56%;
+}
+
+.about__span {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primary-red);
+    text-align: center;
+}
+
+.about__title {
+    text-align: center;
+    color: var(--primary-dark);
+    font-weight: 600;
+    font-size: 48px;
+    margin: 1.5rem 0;
+}
+
+.about__text {
+    text-align: center;
+    font-size: 20px;
+    color: var(--primary-gray);
+    font-weight: 400;
+    margin: 2rem 0;
+}
