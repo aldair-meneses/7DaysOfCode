@@ -1,0 +1,14 @@
+@media screen and (max-width: 801px){
+    .news__title {
+        font-size: 1.5rem;
+    }
+
+    .news__form {
+        width: 100%;
+    }
+
+    .news__email {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+}

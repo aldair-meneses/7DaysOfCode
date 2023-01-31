@@ -1,0 +1,48 @@
+@media screen and (max-width: 801px){
+    .menu__navigation {
+        justify-content: flex-end;
+    }
+
+    .logo__mobile {
+        display: flex;
+        align-self: center;
+        width: 48px;
+    }
+
+    .logo-site {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .menu__button {
+        display: flex;
+        background-color: var(--primary-white);
+        align-self: center;
+        border: none;
+    }
+
+    .menu__image {
+        
+        align-self: center;
+    }
+    .logo__container {
+        position: relative;
+    }
+
+    .link--mobile {
+        text-decoration: none;
+        color: var(--primary-gray);
+        line-height: 1.5rem;
+    }
+
+    .menu__toggle:checked~.links--mobile {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+    }
+
+}

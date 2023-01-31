@@ -1,0 +1,32 @@
+.metrics {
+    margin: 0 auto 6rem auto;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+}
+
+.metrics__article {
+    width: 30%;
+    margin: 0 2rem;
+    text-align: left;
+}
+
+.metrics__numbers {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--primary-red);
+}
+
+.metrics__title {
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 18px;
+    color: var(--primary-dark);
+}
+
+.metrics__text {
+    font-weight: 400;
+    margin-top: 0.5rem;
+    font-size: 16px;
+    color: var(--primary-gray);
+}

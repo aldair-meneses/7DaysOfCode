@@ -1,0 +1,45 @@
+.role {
+    width: 56%;
+    margin: 2rem auto;
+}
+
+.role__title {
+    font-size: 20px;
+    color: var(--primary-dark);
+}
+
+
+.role__item {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--second-gray);
+    border-radius: 16px;
+}
+
+.role__desc {
+    display: flex;
+}
+
+.role__item--title {
+    color: var(--primary-dark);
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.role__item--time {
+    font-size: 16px;
+    color: var(--primary-gray);
+    font-weight: 500;
+}
+
+.role__item--value {
+    font-size: 16px;
+    color: var(--primary-gray);
+    font-weight: 500;
+    margin-left: 1.5rem;
+}
+
+.role__dev {
+    margin: 4rem 0;
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width:801px){
+    .about {
+        margin: 7em auto;
+        width: 80%;
+    }
+
+    .about__title {
+        font-size: 2rem;
+    }
+}

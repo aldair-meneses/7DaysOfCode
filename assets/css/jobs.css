@@ -1,0 +1,36 @@
+.jobs {
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jobs__span {
+    display: inline-block;
+    margin-top: 6rem;
+    text-align: center;
+    color: var(--primary-red);
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+.jobs__title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--primary-dark);
+    margin: 1rem 0;
+}
+
+.jobs__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary-gray);
+    margin: 1rem 0 1.2rem 0;
+}
+
+.jobs__image {
+    width: 100%;
+    margin: 2rem auto;
+}
