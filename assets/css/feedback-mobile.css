@@ -1,0 +1,10 @@
+@media screen and (max-width: 801px){
+    .feedback_div {
+        padding: 0;
+    }
+    
+    .feedback__title {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+}

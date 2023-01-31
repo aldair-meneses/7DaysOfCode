@@ -1,10 +1,10 @@
 .feedback__div {
-    width: 76%;
+    width: 88%;
     margin: 5rem auto;
     text-align: center;
     background: rgba(196, 25, 25, 0.03);
     border-radius: 16px;
-    padding: 4rem;
+    padding: 4rem 0;
 }
 
 .feedback__span {
@@ -20,6 +20,7 @@
     font-weight: 500;
     color: var(--primary-dark);
     margin-bottom: 1rem;
+    padding: 0 4rem;
 }
 
 .feedback__avatar {
