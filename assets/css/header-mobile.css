@@ -30,6 +30,7 @@
     }
     .logo__container {
         position: relative;
+        bottom: 10px;
     }
 
     .link--mobile {
