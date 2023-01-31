@@ -1,0 +1,9 @@
+@media screen and (max-width:801px){
+    .about {
+        width: 80%;
+    }
+
+    .about__title {
+        font-size: 2rem;
+    }
+}
