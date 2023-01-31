@@ -1,0 +1,43 @@
+.feedback__div {
+    width: 76%;
+    margin: 5rem auto;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 4rem;
+}
+
+.feedback__span {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary-red);
+    margin: 0 0 1rem 0;
+}
+
+.feedback__title {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.feedback__avatar {
+    margin: 1rem 0;
+    width: 56px;
+    height: 56px;
+}
+
+.feedback__avatar--name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+}
+
+.feedback__avatar--role {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--primary-gray);
+}
+

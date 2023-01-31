@@ -1,6 +1,6 @@
 .metrics {
     margin: 0 auto 6rem auto;
-    width: 92%;
+    width: 94%;
     display: flex;
     justify-content: center;
 }
@@ -8,6 +8,7 @@
 .metrics__article {
     width: 30%;
     margin: 0 2rem;
+    text-align: left;
 }
 
 .metrics__numbers {
