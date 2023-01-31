@@ -3,6 +3,7 @@
 @import url('./assets/css/about.css');
 @import url('./assets/css/about-mobile.css');
 @import url('./assets/css/metrics.css');
+@import url('./assets/css/metrics-mobile.css');
 
 :root {
     --primary-white: #FFFFFF;

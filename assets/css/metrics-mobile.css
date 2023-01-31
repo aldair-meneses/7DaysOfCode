@@ -1,0 +1,9 @@
+@media screen and (max-width: 801px){
+    .metrics {
+        flex-wrap: wrap;
+    }
+    .metrics__article {
+        width: 30%;
+        flex-grow: 2;
+    }
+}
