@@ -45,4 +45,15 @@
         left: 50%;
     }
 
+    .user__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .button__login {
+        order: 1;
+        margin-top: 0.5em 0;
+    }
+
 }
