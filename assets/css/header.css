@@ -1,8 +1,9 @@
 .main-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 1em 3em;
+    gap: 1rem;
 }
 
 .logo__mobile {
@@ -55,7 +56,6 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 0 2rem;
 }
 
 .user__button {
